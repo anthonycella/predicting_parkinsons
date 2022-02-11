@@ -1,9 +1,19 @@
+#
+# Author: Anthony Cella
+# A file containing functions that are used to extract data from a .csv file to be converted
+# into a more usable format.
+# Last updated: 1/29/22
+#
+
 import csv
 
 from data.patient import Patient
 
 
 def construct_patient_from_row(row, wants_to_include_standard_of_truth):
+    # This is here so that a line of data from the .csv file can be converted into patient objects.
+    # In short, this function turns a row in the .csv to a usable format
+
     patient_id = row[0]
 
     standard_of_truth = int(row[1])
@@ -37,6 +47,9 @@ def construct_patient_from_row(row, wants_to_include_standard_of_truth):
 
 
 def get_patients(file_path_name, user_wants_to_include_standard_of_truth):
+    # this function is necessary to convert all of the rows in the .csv
+    # into a usable format. This uses the construct_patient_from_row() function
+    # located above.
     input_data_file_path_name = file_path_name
     data_file = open(input_data_file_path_name)
     file_reader = csv.reader(data_file)

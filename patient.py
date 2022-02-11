@@ -1,7 +1,7 @@
 #
-# Anthony Cella
+# Author: Anthony Cella
 # A class for patient objects that have an id, age, a number of custom variables, and/or a standard of truth
-# Last updated 1/23/22
+# Last updated 1/29/22
 #
 
 def patient_has_parkinsons_by(standard_of_truth):
