@@ -6,14 +6,14 @@ This project is a machine learning algorithm designed to take in an excel spread
 ## Getting Started
 
 1. Make sure you have Python installed in your computer v3.4 or newer
-* To check current version of Python type the following command in your Command Line (Windows), Shell (Mac), or Terminal (Linux)
-```
-python --version
-```
-* To install python on your computer click [here](https://www.python.org/downloads/)
+  * To check current version of Python type the following command in your Command Line (Windows), Shell (Mac), or Terminal (Linux)
+    ```
+    python --version
+    ```
+  * To install python on your computer click [here](https://www.python.org/downloads/)
 
 2. Run the following command in your Command Line/Shell/Terminal to clone the repo down
-```
-git clone https://github.com/cello-frodo/predicting_parkinsons
-```
+  ```
+  git clone https://github.com/cello-frodo/predicting_parkinsons
+  ```
 
