@@ -35,7 +35,7 @@ from random_forest.forest import *
 # ------------------------------------------------------------------------------ #
 
 def main():
-    file_path_name = "../data/Parkinson's Patient Data.csv"
+    file_path_name = "./data/Parkinson's Patient Data.csv"
     tree_depth = 3
     columns_wanted = [4, 5, 9, 6]
 
