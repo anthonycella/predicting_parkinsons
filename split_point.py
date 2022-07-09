@@ -36,7 +36,9 @@ def get_best_split_point(patients, split_points, data_type):
     # Details on this can be found in gini_impurity.py
 
     from helper_methods.gini_impurity import get_gini_impurity_dictionary_by_split_points
+
     gini_impurity_dictionary = get_gini_impurity_dictionary_by_split_points(patients, split_points, data_type)
+
     gini_impurities = gini_impurity_dictionary.keys()
 
     best_gini_impurity = min(gini_impurities)

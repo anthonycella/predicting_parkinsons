@@ -2,6 +2,9 @@ from helper_methods.true_and_false_counts import *
 
 
 def get_probability_class_zero(patient_list):
+    # gets the probabilty that a patient out of a
+    # list of patients tests false for Parkinsons
+    # (That the standard of truth is zero)
     number_of_patients = len(patient_list)
 
     if number_of_patients == 0:
@@ -14,6 +17,9 @@ def get_probability_class_zero(patient_list):
 
 
 def get_probability_class_one(patient_list):
+    # gets the probabilty that a patient out of a
+    # list of patients tests true for Parkinsons
+    # (That the standard of truth is one)
     number_of_patients = len(patient_list)
 
     if number_of_patients == 0:
